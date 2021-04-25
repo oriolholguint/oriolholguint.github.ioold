@@ -1,0 +1,214 @@
+*
+{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+
+.padre
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+a /*Enlaces ancla*/
+{
+    text-decoration: none;
+}
+
+.margen-interno
+{
+    margin: 1.5vw 2vw;
+}
+
+    .nav
+    {
+        background-color: #d8e3e7;
+        height: 3vw;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+
+    .logo
+    {
+        display: flex;
+        /*background-color: white;*/
+        margin: 0.5vw;
+        padding: 0.5vw;
+        width: 9vw;
+        flex: 1 1 15%;
+        justify-content: center;
+    }
+
+    .logo a
+    {
+        font-size: 2vw;
+    }
+
+    .logo a:hover
+    {
+        color: black;
+    }
+
+    .opciones
+    {
+        display: flex;
+        /*background-color: white;*/
+        margin: 0.5vw;
+        padding: 0.5vw;
+        width: 9vw;
+        flex: 1 1 70%;
+        justify-content: center;
+        font-family: Helvetica, Verdana, sans-serif;
+    }
+
+        .opciones a
+        {
+            color: black;
+            font-size: 1.5vw;
+            padding: 0vw 1.5vw;
+        }
+
+        .opciones img
+        {
+            width: 1.5vw;
+            margin: 0vw 0.5vw;
+        }
+
+
+
+        .opciones img
+        {
+            
+            color: white;
+        }
+    .social
+    {
+        display: flex;
+        /*background-color: white;*/
+        margin: 0.5vw;
+        padding: 0.5vw;
+        width: 9vw;
+        flex: 1 1 15%;
+        justify-content: flex-end;
+    }
+
+    .social img
+    {
+        color: black;
+        width: 2.5vw;
+        margin: 0.2vw 0.2vw;
+        padding: 0 5px;
+    }
+    
+    .header
+    {
+        /*background-color: #d8e3e7;*/
+        background-image: url(../assets/images/imagen-prueba-programador.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 23vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        
+    }
+
+    .header h2
+    {
+        color: white;
+        font-size: 3vw;
+        font-family: Helvetica, Verdana, sans-serif;
+        padding: 0.5vw 0vw;
+    }
+
+    .header hr
+    {
+        height: 0.25vw;
+        width: 45vw;
+    }
+
+    .main
+    {
+        background-color: black;
+        display: flex;
+        margin-bottom: 2vw;
+        height: 50vw; /*Esto puede ir en .articulos*/
+    }
+
+        .articulos
+        {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            flex: 1 1 100%;
+        }
+
+            .desc-article
+            {
+                background-color: #1dbfec;
+                align-items: center;
+                flex: 1 1 100%;
+                height: 40%;
+                padding: 0.5vw 0.5vw;
+                margin: 0.0vw 0.2vw;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center; 
+                align-items: center;               
+            }
+
+                .desc-article img
+                {
+                    height: 15vw; 
+                    flex: 1 1 20%;                
+                }
+
+                .desc-article p
+                {
+                    flex: 1 1 50%;
+                    font-size: 1.5vw;
+                    text-align: justify;
+                    padding: 2vw 2vw;
+                }
+
+                .desc-article ul
+                {
+                    flex: 1 1 30%;
+                    padding: 0vw 2vw;
+                    font-size: 1.5vw;
+                    list-style: none;
+                    
+                }
+
+                .desc-article li
+                {
+                    
+                }
+
+                .desc-article ul h3
+                {
+                    text-align: center;
+                }
+
+
+            .article
+            {
+                background-color: #1dbfec;
+                align-items: center;  
+                flex: 1 1 auto;
+                height: 60%;
+                padding: 0.0vw 0.5vw;
+                margin: 0.0vw 0.2vw;
+            }
+
+    .footer
+    {
+        height: 10vw;
+        background-color: #d8e3e7;
+        display: flex;
+    }
