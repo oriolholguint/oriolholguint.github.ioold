@@ -85,16 +85,17 @@ a /*Enlaces ancla*/
             
             color: white;
         }
-    .social
-    {
-        display: flex;
-        /*background-color: white;*/
-        margin: 0.5vw;
-        padding: 0.5vw;
-        width: 9vw;
-        flex: 1 1 15%;
-        justify-content: flex-end;
-    }
+        
+        .social
+        {
+            display: flex;
+            /*background-color: white;*/
+            margin: 0.5vw;
+            padding: 0.5vw;
+            width: 9vw;
+            flex: 1 1 15%;
+            justify-content: flex-end;
+        }
 
     .social img
     {
