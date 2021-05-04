@@ -24,12 +24,14 @@ a /*Enlaces ancla*/
     .nav
     {
         background-color: #d8e3e7;
-        height: 3vw;
+        height: 3.5vw;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid rgba(255, 255, 255, .5);
+        border-bottom: 0.25vw solid rgba(0, 0, 0, 0.2);
+        position: sticky;
+        top: 0px;
     }
 
     .logo
@@ -111,12 +113,12 @@ a /*Enlaces ancla*/
         background-image: url(../assets/images/imagen-prueba-programador.jpg);
         background-position: center;
         background-size: cover;
-        height: 23vw;
+        height: 40vw;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: column nowrap;
-        
+
     }
 
     .header h2
@@ -135,10 +137,10 @@ a /*Enlaces ancla*/
 
     .main
     {
-        background-color: black;
+        background-color: white;
         display: flex;
         margin-bottom: 2vw;
-        height: 50vw; /*Esto puede ir en .articulos*/
+        height: 60vw; /*Esto puede ir en .articulos*/
     }
 
         .articulos
@@ -151,16 +153,18 @@ a /*Enlaces ancla*/
 
             .desc-article
             {
-                background-color: #1dbfec;
+                background-color: white;
                 align-items: center;
                 flex: 1 1 100%;
-                height: 40%;
+                height: 50%;
                 padding: 0.5vw 0.5vw;
                 margin: 0.0vw 0.2vw;
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center; 
-                align-items: center;               
+                align-items: center;
+                border-style: solid;
+                          
             }
 
                 .desc-article img
@@ -199,17 +203,77 @@ a /*Enlaces ancla*/
 
             .article
             {
-                background-color: #1dbfec;
-                align-items: center;  
-                flex: 1 1 auto;
-                height: 60%;
-                padding: 0.0vw 0.5vw;
-                margin: 0.0vw 0.2vw;
+                display: flex;
+                flex: 1 1 49%;
+                flex-flow: row wrap;
+                align-content: space-between;
+                /*background-color: #1dbfec;*/
+                height: 50%;
+                padding: 1vw 1vw;
+                margin: 1vw 0.2vw 0.0vw 0.2vw;
+                font-family: Helvetica, Verdana, sans-serif;
             }
 
-    .footer
+            .article img
+            {
+                max-width: 100%;
+                flex: 1 1 100%;
+                height: 15vw;
+            }
+
+            .artcile h3
+            {
+                flex: 1 1 100%;
+
+            }
+
+            .article p
+            {
+                flex: 1 1 100%;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+
+.footer
+{
+    display: flex;
+    flex-flow: row wrap;
+    height: 30vw;
+    background-color: #d8e3e7;
+}
+
+    .logo-footer
     {
-        height: 10vw;
-        background-color: #d8e3e7;
-        display: flex;
+        background-color: black;
+        height: 20vw;
+        flex: 1 1 25%;
+    }
+
+    .projects-footer
+    {
+        background-color: black;
+        height: 20vw;
+        flex: 1 1 25%;
+    }
+
+    .blog-footer
+    {
+        background-color: black;
+        height: 20vw;
+        flex: 1 1 25%;
+    }
+
+    .contact-footer
+    {
+        background-color: black;
+        height: 20vw;
+        flex: 1 1 25%;
+    }
+
+    .footer p
+    {
+        flex: 1 1 100%;
+        text-align: center;
+        align-self: flex-end;
+        padding-bottom: 1.5vw;
     }
