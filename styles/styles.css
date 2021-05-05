@@ -198,6 +198,7 @@ a /*Enlaces ancla*/
                 .desc-article ul h3
                 {
                     text-align: center;
+                    font-size: 1.5vw;
                 }
 
 
@@ -224,7 +225,7 @@ a /*Enlaces ancla*/
             .artcile h3
             {
                 flex: 1 1 100%;
-
+                font-size: 1.5vw;
             }
 
             .article p
@@ -270,6 +271,7 @@ a /*Enlaces ancla*/
         .projects-footer ul
         {
             list-style: none;
+            font-size: 1.3vw;
         }
 
     .blog-footer
@@ -285,6 +287,7 @@ a /*Enlaces ancla*/
         .blog-footer ul
         {
             list-style: none;
+            font-size: 1.3vw;
         }
 
     .contact-footer
@@ -304,6 +307,7 @@ a /*Enlaces ancla*/
         {
             display: inline;
             padding-bottom: 2vw;
+            font-size: 1.5vw;
         }
 
         .contact-footer button
@@ -311,7 +315,7 @@ a /*Enlaces ancla*/
             display: block;
             width: 12vw;
             height: 3vw;
-            
+            font-size: 1.3vw;
         }
 
     .footer p
@@ -320,4 +324,5 @@ a /*Enlaces ancla*/
         text-align: center;
         align-self: flex-end;
         padding-bottom: 0.5vw;
+        font-size: 1.5vw;
     }
