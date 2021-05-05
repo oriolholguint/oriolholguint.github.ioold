@@ -230,8 +230,8 @@ a /*Enlaces ancla*/
             .article p
             {
                 flex: 1 1 100%;
-                font-size: 18px;
-                letter-spacing: 1px;
+                font-size: 1.3vw;
+                letter-spacing: 0.1vw;
             }
 
 .footer
