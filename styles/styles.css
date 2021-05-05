@@ -244,36 +244,80 @@ a /*Enlaces ancla*/
 
     .logo-footer
     {
-        background-color: black;
+        /*background-color: black;*/
         height: 20vw;
         flex: 1 1 25%;
+        padding: 2vw;
     }
+
+        .logo-footer img
+        {
+            width: 20vw;
+            height: 15vw;
+        }
 
     .projects-footer
     {
-        background-color: black;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: flex-start;
         height: 20vw;
         flex: 1 1 25%;
+        padding: 2vw 0vw 0vw 2vw;
+        
     }
+
+        .projects-footer ul
+        {
+            list-style: none;
+        }
 
     .blog-footer
     {
-        background-color: black;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: flex-start;
         height: 20vw;
         flex: 1 1 25%;
+        padding: 2vw 0vw 0vw 0vw;
     }
+
+        .blog-footer ul
+        {
+            list-style: none;
+        }
 
     .contact-footer
     {
-        background-color: black;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: column wrap;
+        flex: 1 1 100%;
         height: 20vw;
         flex: 1 1 25%;
+        padding-top: 2vw;
     }
+
+        .contact-footer h3
+        {
+            display: inline;
+            padding-bottom: 2vw;
+        }
+
+        .contact-footer button
+        {
+            display: block;
+            width: 12vw;
+            height: 3vw;
+            
+        }
 
     .footer p
     {
         flex: 1 1 100%;
         text-align: center;
         align-self: flex-end;
-        padding-bottom: 1.5vw;
+        padding-bottom: 0.5vw;
     }
