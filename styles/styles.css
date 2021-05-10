@@ -137,10 +137,10 @@ a /*Enlaces ancla*/
 
     .main
     {
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         display: flex;
         margin-bottom: 2vw;
-        height: 60vw; /*Esto puede ir en .articulos*/
+        height: 100vw; /*Esto puede ir en .articulos*/
     }
 
         .articulos
@@ -156,7 +156,7 @@ a /*Enlaces ancla*/
                 background-color: white;
                 align-items: center;
                 flex: 1 1 100%;
-                height: 50%;
+                height: 30%;
                 padding: 0.5vw 0.5vw;
                 margin: 0.0vw 0.2vw;
                 display: flex;
@@ -209,37 +209,37 @@ a /*Enlaces ancla*/
                 flex-flow: row wrap;
                 align-content: space-between;
                 /*background-color: #1dbfec;*/
-                height: 50%;
+                height: 35%;
                 padding: 1vw 1vw;
                 margin: 1vw 0.2vw 0.0vw 0.2vw;
                 font-family: Helvetica, Verdana, sans-serif;
             }
 
-            .article img
-            {
-                max-width: 100%;
-                flex: 1 1 100%;
-                height: 15vw;
-            }
+                .article img
+                {
+                    max-width: 100%;
+                    flex: 1 1 100%;
+                    height: 15vw;
+                }
 
-            .article h3
-            {
-                flex: 1 1 100%;
-                font-size: 1.5vw;
-            }
+                .article h3
+                {
+                    flex: 1 1 100%;
+                    font-size: 1.5vw;
+                }
 
-            .article p
-            {
-                flex: 1 1 100%;
-                font-size: 1.3vw;
-                letter-spacing: 0.1vw;
-            }
+                .article p
+                {
+                    flex: 1 1 100%;
+                    font-size: 1.3vw;
+                    letter-spacing: 0.1vw;
+                }
 
 .footer
 {
     display: flex;
     flex-flow: row wrap;
-    height: 30vw;
+    height: 25vw;
     background-color: #d8e3e7;
 }
 
@@ -316,6 +316,12 @@ a /*Enlaces ancla*/
             width: 12vw;
             height: 3vw;
             font-size: 1.3vw;
+        }
+
+        .contact-footer button a
+        {
+            font-family: Helvetica, Verdana, sans-serif;
+            color: black;
         }
 
     .footer p
