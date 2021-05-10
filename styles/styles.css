@@ -140,7 +140,7 @@ a /*Enlaces ancla*/
         background-color: rgb(255, 255, 255);
         display: flex;
         margin-bottom: 2vw;
-        height: 100vw; /*Esto puede ir en .articulos*/
+        height: 95vw; /*Esto puede ir en .articulos*/
     }
 
         .articulos
@@ -190,10 +190,10 @@ a /*Enlaces ancla*/
                     
                 }
 
-                .desc-article li
+                /*.desc-article li
                 {
                     
-                }
+                }*/
 
                 .desc-article ul h3
                 {
@@ -289,6 +289,16 @@ a /*Enlaces ancla*/
             list-style: none;
             font-size: 1.3vw;
         }
+
+    
+
+    /*Titulo de footer (Blog y Projects)*/
+    div ul li h3
+    {
+        padding-bottom: 1vw;
+        font-family: Helvetica, Verdana, sans-serif;      
+    
+    }
 
     .contact-footer
     {
